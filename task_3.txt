@@ -1,0 +1,9 @@
+1. В командной стоке выполнил 
+   mysqldump -uroot -pmaster example > exampledump.sql
+2. Чтобы восстановить базу из дампа сначала нужно создать ее - в терминале mysql> CREATE DATABASE sample;
+3. В командной стоке выполнил
+   mysql -uroot -pmaster -f sample < exampledump.sql
+4. В mysql провертл что все сработало:
+   SHOW DATABASES;
+   USE sample
+   DESCRIBE users;

@@ -1,0 +1,6 @@
+/* 
+Установил MySQL и создал этот файл в C:\Windows 
+*/
+[client]
+user=root
+password=master
